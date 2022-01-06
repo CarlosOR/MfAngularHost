@@ -12,6 +12,11 @@ const routes: Routes = [
     loadChildren: () => import('mfClient/MfClientContentModule')
     .then(m => m.MfClientContentModule)
   },
+  {
+    path: 'employees',
+    loadChildren: () => import('mfEmploye/MfEmployeContentModule')
+    .then(m => m.MfEmployeContentModule)
+  },
   { path: '**', redirectTo: '' }
 ];
 
