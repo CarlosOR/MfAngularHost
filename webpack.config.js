@@ -33,8 +33,8 @@ module.exports = {
 
       // For hosts (please adjust)
       remotes: {
-        "mfClient": "mfClient@http://localhost:5000/mfClientRemoteEntry.js",
-        "mfEmploye": "mfEmploye@http://localhost:5001/mfEmployeRemoteEntry.js"
+        //"mfClient": "mfClient@http://localhost:5000/mfClientRemoteEntry.js",
+        //"mfEmploye": "mfEmploye@http://localhost:5001/mfEmployeRemoteEntry.js"
       },
 
       shared: share({
